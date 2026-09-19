@@ -14,12 +14,12 @@ go install github.com/ree-verse/ReSteganographer@latest
 
 Encode a secret message:
 ```bash
-resteganographer encode -i input.png -o output.png -m "Your secret message"
+ReSteganographer encode -i input.png -o output.png -m "Your secret message"
 ```
 
 Decode a hidden message:
 ```bash
-resteganographer decode -i output.png
+ReSteganographer decode -i output.png
 ```
 
 ## Example
